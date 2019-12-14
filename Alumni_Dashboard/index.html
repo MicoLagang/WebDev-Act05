@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lagang Alumni Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="top-navigation">
+			<div id="menuIcon" >
+				<a onclick="menu()"><img src="menu_48px.png"></a>
+			</div>
+			<div id="homeIcon" class="active">
+				<a onclick="home()"><img src="home_48px.png"></a>
+			</div>
+			<div id="messageIcon">
+				<a onclick="message()"><img src="message_48px.png"></a>
+			</div>	
+			<div id="notificationIcon">
+				<a  onclick="notification()"><img src="appointment_reminders_48px.png"></a>
+			</div>
+		</div>
+
+		<div id="menu" class="side-navigation">
+			<div>
+				<img src="Assests/profile.png">
+				<a href="">Profile</a>
+			</div>
+			<hr>
+
+			<ul>
+				<li>
+					<img src="Assests/hashtag.png">
+					<a href="">Trending Talks</a>
+				</li>
+				<li>
+					<img src="Assests/note.png">
+					<a href="">Schedule Tutorial</a>
+				</li>
+				<li>
+					<img src="Assests/note.png">
+					<a href="">Turorial Schedules</a>
+				</li>
+				<li>
+					<img src="Assests/message.png">
+					<a href="">Advice</a>
+				</li>
+				<li>
+					<img src="Assests/bookmark.png">
+					<a href="">Save Talks</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div id="home" class="centerPane">
+			<div class="writePost">
+				<div>
+					<img src="Assests/profile.png">
+					<input type="text" placeholder="Need Advice? Start writing here...">
+				</div>
+				<div>
+					<button style="float: right;">Post</button>
+				</div>
+			</div>
+			<hr>
+
+			<div class="post">
+				<div>
+					<div class="postInfo">
+						<img src="Assests/profile.png">
+						<h3>John Doe</h3>
+						<img src="Assests/options.png">
+					</div>
+					<div></div>
+				</div>
+				<div>
+					<img class="imgPost" src="Assests/post.png">
+				</div>
+				<div class="actions">
+					<button>Listen</button>
+					<button>Comment</button>
+					<button>Share</button>
+				</div>
+			</div>
+			<div class="post">
+				<div>
+					<div class="postInfo">
+						<img src="Assests/profile.png">
+						<h3>John Doe</h3>
+						<img src="Assests/options.png">
+					</div>
+					<div></div>
+				</div>
+				<div>
+					<img class="imgPost" src="Assests/post.png">
+				</div>
+				<div class="actions">
+					<button>Listen</button>
+					<button>Comment</button>
+					<button>Share</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="rightPane">
+			<div id="notification" class="notification">
+				<div>
+					<h3>Notification</h3>
+					<hr>
+				</div>
+				<div>
+					<a href="">
+						<p><strong>Jann</strong> shares <strong>John Doe's</strong> talk</p>
+						<p>20 minutes ago</p>
+					</a>
+					<hr>
+				</div>
+				<div>
+					<a href="">
+						<p><strong>Jann</strong> comment on your post</p>
+						<p>30 minutes ago</p>
+					</a>
+					<hr>
+				</div>
+				<div>
+					<a href="">
+						<p><strong>John Doe's</strong> accepted your request</p>
+					    <p>35 minutes ago</p>
+					</a>
+					<hr>
+				</div>
+				<div>
+					<a href="">
+						<p><strong>Jann</strong> shares <strong>Johnny's</strong> talk</p>
+					    <p>40 minutes ago</p>
+					</a>
+					<hr>
+				</div>
+				<a href="">Show more</a>
+			</div>
+			<div id="message" class="chat">
+				<h3>Chat</h3>
+				<hr>
+				<div>
+					<img src="Assests/brina.png">
+					<a href="">John Doe</a>
+				</div>
+				<div>
+					<img src="Assests/brina.png">
+					<a href="">Johnny</a>
+				</div>
+				<div>
+					<img src="Assests/brina.png">
+					<a href="">Donny</a>
+				</div>
+				<div>
+					<img src="Assests/brina.png">
+					<a href="">Jennie</a>
+				</div>
+				<div>
+					<img src="Assests/brina.png">
+					<a href="">Rose</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+
+<script src="script.js"></script>
+</html>
